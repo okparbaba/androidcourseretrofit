@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        tools:context=".PostDetailActivity">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView
+                android:text="Id minus libero illiumas nam ad official"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTitle"/>
+        <TextView
+                android:text="earum voluptatem facere provident blanditiis velit laboriosam\npariatur accusamus odio saepe\ncumque dolor qui a dicta ab doloribus consequatur omnis\ncorporis cupiditate eaque assumenda ad nesciunt"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBody"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
